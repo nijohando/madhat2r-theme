@@ -1886,13 +1886,13 @@
 
    ;;;;; smartparens
 
-   `(sp-pair-overlay-face
-     ((,madhat2r-class (:background ,highlight :foreground nil))
-      (,madhat2r-term-class (:background ,highlight-term :foreground nil))))
+   ;`(sp-pair-overlay-face
+   ;  ((,madhat2r-class (:background ,highlight :foreground nil))
+   ;   (,madhat2r-term-class (:background ,highlight-term :foreground nil))))
 
-   `(sp-show-pair-match-face
-     ((,madhat2r-class (:background ,mat :foreground ,bg1 :inherit bold))
-      (,madhat2r-term-class (:background ,mat-term :foreground ,bg1 :inherit bold))))
+   ;`(sp-show-pair-match-face
+   ;  ((,madhat2r-class (:background ,mat :foreground ,bg1 :inherit bold))
+   ;   (,madhat2r-term-class (:background ,mat-term :foreground ,bg1 :inherit bold))))
 
    ;;;;; spaceline
 
